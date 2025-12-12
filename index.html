@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects — Mattia Galbusera</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="nav">
+      <a class="brand" href="./index.html">MG</a>
+      <nav class="links">
+        <a href="./projects.html" aria-current="page">Archive</a>
+      </nav>
+    </header>
+
+    <main class="page">
+      <h1 class="page-title">Project Archive</h1>
+
+      <ul class="project-list">
+        <li class="project" data-preview="https://images.unsplash.com/photo-1529421308418-eab98863cee0?auto=format&fit=crop&w=1600&q=80">
+          <span class="project-title">Lincoln Heights Jail</span>
+          <span class="project-meta">2025 · adaptive reuse · LA</span>
+        </li>
+
+        <li class="project" data-preview="https://images.unsplash.com/photo-1529421308418-eab98863cee0?auto=format&fit=crop&w=1600&q=80">
+          <span class="project-title">Timber Warehouse</span>
+          <span class="project-meta">2025 · CLT · kinetic facade</span>
+        </li>
+
+        <li class="project" data-preview="https://images.unsplash.com/photo-1529421308418-eab98863cee0?auto=format&fit=crop&w=1600&q=80">
+          <span class="project-title">Zurich HQ Lobby</span>
+          <span class="project-meta">2025 · interiors · reception</span>
+        </li>
+      </ul>
+    </main>
+
+    <!-- floating preview (experimental layer) -->
+    <div class="cursor-preview" id="cursorPreview" aria-hidden="true">
+      <div class="cursor-preview__media" id="cursorPreviewMedia"></div>
+      <div class="cursor-preview__fx"></div>
+    </div>
+
+    <script src="projects.js"></script>
+  </body>
+</html>
