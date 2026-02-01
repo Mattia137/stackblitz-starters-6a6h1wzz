@@ -1,0 +1,9 @@
+
+> start
+> servor --reload
+
+
+  🗂  Serving:	/app
+
+  🏡 Local:	http://localhost:8080
+  📡 Network:	http://192.168.0.2:8080
