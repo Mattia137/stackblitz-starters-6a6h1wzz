@@ -79,6 +79,28 @@ body {
   opacity: 0.7;
 }
 
+.interactive-link {
+  margin-top: 1.5rem;
+}
+
+.interactive-link a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.7rem;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.interactive-link a:hover {
+  background-color: white;
+  color: black;
+  border-color: white;
+}
+
 @media (min-width: 768px) {
   .content {
     bottom: 10%;
@@ -88,7 +110,7 @@ body {
     font-size: 1.3rem;
   }
 
-  .location, .status, .contacts a {
+  .location, .status, .contacts a, .interactive-link a {
     font-size: 0.8rem;
   }
 }
